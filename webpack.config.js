@@ -35,9 +35,8 @@ module.exports = {
   	]
   },
   plugins: [
-    new HtmlWebpackPlugin(),
     new HtmlWebpackPlugin({
-      filename: 'landing.html',
+      filename: 'index.html',
       template: 'landing.html',
       inject: 'body',
     })
